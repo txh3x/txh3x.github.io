@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on txh3x</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on txh3x</description>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 09 Nov 2024 14:41:29 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Init</title>
+      <link>http://localhost:1313/posts/init/</link>
+      <pubDate>Sat, 09 Nov 2024 14:41:29 +0530</pubDate>
+      <guid>http://localhost:1313/posts/init/</guid>
+      <description>Init This is my first post.
+C
+#include &amp;lt;stdio.h&amp;gt; #define FORMAT_SPECIFIER &amp;#34;%s\n&amp;#34; int main(int argc, char** argv){ char* msg = &amp;#34;olleh&amp;#34;; printf(FORMAT_SPECIFIER, msg); } Cpp
+#include &amp;lt;iostream&amp;gt; int main(int argc, char** argv){ std::string msg = &amp;#34;olleh&amp;#34;; std::cout &amp;lt;&amp;lt; msg &amp;lt;&amp;lt; std::endl; } Python
+print(&amp;#34;olleh&amp;#34;); Rust
+fn main(){ let msg = String::from(&amp;#34;olleh&amp;#34;); println!(&amp;#34;{}&amp;#34;, msg); } Nim
+echo &amp;#34;olleh&amp;#34; </description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,94 @@
+baseURL = "https://txh3x.github.io/"
+languageCode = "en-us"
+title = "txh3x"
+theme = "hugo-PaperMod"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+mainsections = ["posts", "hugo-PaperMod"]
+
+[minify]
+disableXML = true
+
+[languages.en]
+languageName = "English"
+weight = 1
+
+[languages.en.taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[[languages.en.menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 10
+
+[languages.en.params]
+languageAltTitle = "English"
+
+[languages.en.params.profileMode]
+enabled = true
+title = "txh3x"
+imageUrl = "https://avatars.githubusercontent.com/u/110654727"
+imageTitle = "Profile image"
+imageWidth = 120
+imageHeight = 120
+subtitle = "  "
+
+[[languages.en.params.profileMode.buttons]]
+name = "Blog"
+url = "posts"
+
+[params]
+env = "production"
+description = "tx's blog"
+author = "tx"
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowToc = true
+
+[params.profileMode]
+enabled = false
+title = "txh3x"
+imageUrl = "#"
+imageTitle = "my image"
+
+[[params.profileMode.buttons]]
+name = "Tags"
+url = "tags"
+
+[params.homeInfoParams]
+Title = "Hii, I'm tx."
+
+[[params.socialIcons]]
+name = "Github"
+title = "Join me on Github"
+url = "https://github.com/txh3x"
+
+[params.assets]
+disableHLJS = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true
